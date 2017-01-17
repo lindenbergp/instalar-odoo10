@@ -7,6 +7,8 @@ Shell Script de Instalação do Odoo 10 com Localização Brasileira.
 # Clone o repositorio
 git clone https://github.com/lindenbergp/instalar-odoo10.git
 
+cd instalar-odoo10/
+
 # Edite os parâmetros de instalação do Servidor que fica logo no início do arquivo
 
 nano odoo-install.sh

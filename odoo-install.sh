@@ -91,7 +91,6 @@ sudo -H pip install http://labs.libre-entreprise.org/frs/download.php/897/pyxmls
 
 echo -e "\n---- Baixando repositório da localização brasileira ----"
 sudo git clone --depth 1 --branch 10.0 https://github.com/Trust-Code/odoo-brasil.git /opt/adax/odoo-brasil
-sudo git clone --depth 1 --branch 10.0 https://github.com/Trust-Code/trustcode-addons.git /opt/adax/odoo-brasil
 
 echo -e "\n---- Removendo módulo /opt/adax/odoo/addons/l10n_br para usar o br_coa em /opt/adax/odoo-brasil ----"
 sudo rm -rf /opt/adax/odoo/addons/l10n_br
